@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+VIC+WA+NT+Beginner&family=Roboto&family=Roboto+Mono:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Ibarra+Real+Nova&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 740px) 
+{
+    
+    /*
+    {
+        background-color: red;
+    }
+    .sidebar
+    {
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+    */
+}
+.ham
+{
+    position:absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+    margin-top: 5px;
+}
+
+.sidebar{
+    background-color: grey;
+    /*width: 200px;*/
+    /*font-family: 'Edu NSW ACT Foundation', cursive;*/
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebargo
+{
+        transform: translate(-443px,0px);
+        position: absolute;
+}
+
+#cross
+{
+    margin-left: 125px;
+}
+.sidebar nav
+{
+    padding: 20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container{
+    display:flex;
+}
+
+.infocontainer
+{
+    /*background-color: rgb(202,9,128);*/
+    height: 68vh;
+    width: 70vw;
+    margin: 50px auto;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.name{
+    font-size: 58px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 12px;
+}
+.moreabout{
+    font-size: 14px;;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 6px;
+}
+.buttons button{
+    padding: 12px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 24px 3px;
+}
+
+.buttons button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.devPic img{
+    width: 320px;
+    height: 68vh;
+
+}
+
+.contactform
+{
+    padding-top: 100px;
+    padding-left: 34px;;
+    padding-right: 34px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contactform h1
+{
+    color: grey;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.contactform form
+{
+    background-color: whitesmoke;
+}
+.contactform form div{
+    padding: 10px 0;
+}
+
+#emailphoneHelp
+{
+    padding-top: 20px;
+    font-size: 9px;
+}
+
+.contactform button
+{
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    color: aliceblue;
+}
+.contactform button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+
+.mb-3
+{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#clientName{
+    margin-left: 102px;
+}
+
+#clientmsg{
+    margin-left: 66px;
+}
+
+#clientphone{
+    margin-left: 44px;
+}
+
+#clientemail{
+    margin-left: 55px;
+}
+
+.mainform 
+{
+    margin-top: 10px;
+}
+
+.form-control
+{
+    width: 300px;
+}
+
+.blog-main
+{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-main h1{
+    font-family: 'Cookie', cursive;
+    margin-top: 50px;
+    margin-bottom: 53px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.blogcontainer
+{
+    height: 100vw;
+    margin-bottom: 1px;
+    margin-left: 96px;
+    margin-right: 89px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+
+#blogtype
+{
+    padding-top: 21px;
+    padding-bottom: 17px;
+}
+
+.blogitem{
+    
+    border: solid black 1px;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-inline: 11px;
+}
+
+.blogitem h2{
+    padding-top: 7px;
+    padding-bottom: 17px;
+}
+
+.blogitem p
+{
+    height: fit-content;
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.soc-container ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+.soc-container ul li {
+    list-style: none;
+  }
+  
+.soc-container ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+}
+  
+.soc-container ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+}
+  
+.soc-container ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+}
+  
+.soc-container  ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+}
+  
+ul li:nth-child(2) a:hover .fab {
+    color: #00aced;
+}
+  
+ul li:nth-child(3) a:hover .fab {
+    color: #dd4b39;
+}
+  
+ul li:nth-child(4) a:hover .fab {
+    color: #007bb6;
+}
+  
+ul li:nth-child(5) a:hover .fab {
+    color: #e4405f;
+}
+
+.text-center
+{
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.intropara
+{
+    font-family: 'Ibarra Real Nova', serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 8em;
+    text-align: left;
+}
+
+.intropara li
+{
+    padding-top: 2em;
+}
+
+.intropara p
+{
+    padding-top: 3em;
+}
